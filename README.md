@@ -1,3 +1,3 @@
-scifiPlatformer
+scifi Platformer
 ===============
-A GAme with platforms and cool lights
+A Game with platforms and cool lights. WIP
