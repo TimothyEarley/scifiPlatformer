@@ -18,7 +18,7 @@ public class Loading extends GameState {
 	private String loadingObject; 
 	
 	/**
-	 * Monitors, if we have rendered twice in order to show the screen first and then load
+	 * Checks, if we have rendered twice in order to show the screen first and then load
 	 */
 	private boolean renderOne, renderTwo;
 

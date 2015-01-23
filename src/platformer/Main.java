@@ -3,6 +3,7 @@ package platformer;
 import graphics.Sprite;
 
 import java.awt.Font;
+import java.util.Random;
 
 import platformer.states.Loading;
 import platformer.states.game.Game;
@@ -13,9 +14,12 @@ import stateBased.StateBasedGame;
 
 public class Main extends StateBasedGame {
 	
+	public static Random rand = new Random();
+
+	
 	private static final String TITLE = "Sci-fi Platformer";
 	
-	private static final int WIDTH = 1600, HEIGHT = 900;
+	public static final int WIDTH = 1600, HEIGHT = 900;
 	
 	public static final int loadingID = 0, gameID = 1, menuID = 2, helpID = 3;
 
